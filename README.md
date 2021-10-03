@@ -9,7 +9,7 @@
   b. python -m ipykernel install --user --name=myenv  
 5. Launch Jupyter
 6. Add this to the first block: %load_ext rpy2.ipython
-7. Use this as the first line in an R code block
+7. Use this as the first line in an R code block: %%R
 8. Export R variables to Python: %R -o my_R_variable
 9. Export Python variables to R: %R -i my_Python_variable
 
